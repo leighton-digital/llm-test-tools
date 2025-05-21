@@ -17,7 +17,7 @@ This will compile the TypeScript files into JavaScript in the `dist` directory.
 
 ## Versioning
 
-1. Create a release which will automatically update the change log and update the package vserion number:
+1. Create a release which will automatically update the change log and update the package version number:
 ```bash
 npm run release
 ```
@@ -41,7 +41,7 @@ npm publish --access public # additional flag for scoped packages
 
 1. **Version conflicts**:
    - If you try to publish a version that already exists
-   - Solution: Use `npm version` to update to a new version
+   - Solution: Use `npm run release` to update to a new version
 
 2. **Permission errors**:
    - If you don't have permission to publish
@@ -55,12 +55,12 @@ npm publish --access public # additional flag for scoped packages
 
 1. Verify package status:
 ```bash
-npm view llm-test-tools
+npm view @leighton-digital/llm-test-tools
 ```
 
 2. Check package versions:
 ```bash
-npm view llm-test-tools versions
+npm view @leighton-digital/llm-test-tools versions
 ```
 
 ## Best Practices
