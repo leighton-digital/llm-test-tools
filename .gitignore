@@ -37,5 +37,3 @@ yarn-error.log*
 # Test files
 __tests__/testData.ts
 
-# Commitizen/ Commitlint
-commitlint.config.js
