@@ -2,6 +2,9 @@
 
 # LLM Test Tools
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/leighton-digital/llm-test-tools/blob/master/LICENSE)
+![Maintained](https://img.shields.io/maintenance/yes/2025)
+
 A TypeScript library for testing AI responses using Amazon Bedrock Converse API under the hood. This package helps you validate AI-generated responses against specific assertions and analyse their tone, factual content, and confidence level.
 
 ## Features
