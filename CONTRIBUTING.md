@@ -83,4 +83,4 @@ If you have any questions about contributing, feel free to open an issue or cont
 
 ---
 
-<img src="images/leighton-logo.svg" width="200" >
+<img src="https://raw.githubusercontent.com/leighton-digital/lambda-toolkit/2578cda7dfd2a63e61912c1289d06f45f357616f/images/leighton-logo.svg" width="200" sanitize="true" />
