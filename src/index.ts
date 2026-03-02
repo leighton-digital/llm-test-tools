@@ -166,7 +166,7 @@ export class ResponseAssertions {
     const {
       text,
       prompt,
-      modelId = 'us.amazon.nova-premier-v1:0',
+      modelId = 'amazon.nova-lite-v1:0',
       temperature = 0.3,
       maxTokensToSample = 500,
       topP = 0.7,

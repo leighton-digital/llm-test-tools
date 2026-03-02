@@ -193,7 +193,7 @@ describe('LLM Test Tools', () => {
       const response = await tester.responseAssertions({
         text: TEST_RESPONSES.perfectResponse.text,
         prompt: TEST_RESPONSES.perfectResponse.assertions,
-        modelId: 'us.amazon.nova-micro-v1:0', // using AWS Nova Micro as an override
+        modelId: 'amazon.nova-micro-v1:0', // using AWS Nova Micro as an override
       });
 
       expect(response).toSatisfyAssertions({
@@ -204,11 +204,11 @@ describe('LLM Test Tools', () => {
       });
     }, 30000);
 
-    it('should work with toSatisfyAssertions for a different model (Anthropic Claude Sonnet 3)', async () => {
+    it('should work with toSatisfyAssertions for a different model (Amazon Nova Pro)', async () => {
       const response = await tester.responseAssertions({
         text: TEST_RESPONSES.perfectResponse.text,
         prompt: TEST_RESPONSES.perfectResponse.assertions,
-        modelId: 'anthropic.claude-3-sonnet-20240229-v1:0', // using Anthropic Claude Sonnet 3 as an override
+        modelId: 'amazon.nova-pro-v1:0', // using Amazon Nova Pro as an override
       });
 
       expect(response).toSatisfyAssertions({
