@@ -13,7 +13,7 @@
     "node": ">=22",
     "pnpm": ">=10"
   },
-  "packageManager": "pnpm@10.18.1+sha512.77a884a165cbba2d8d1c19e3b4880eee6d2fcabd0d879121e282196b80042351d5eb3ca0935fa599da1dc51265cc68816ad2bddd2a2de5ea9fdf92adbec7cd34",
+  "packageManager": "pnpm@10.30.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leighton-digital/llm-test-tools.git"
@@ -64,6 +64,7 @@
     "jest": "30.2.0",
     "lefthook": "2.1.2",
     "ts-jest": "29.4.6",
+    "typedoc": "0.28.17",
     "typedoc-plugin-markdown": "4.10.0",
     "typescript": "5.9.3"
   },
