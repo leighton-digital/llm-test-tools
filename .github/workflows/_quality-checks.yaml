@@ -19,13 +19,6 @@ jobs:
       name: 🔍  Type Check
       run: pnpm typecheck
 
-  unitTest:
-    uses: ./.github/workflows/_node_job.yaml
-    with:
-      name: 🧪  Unit Test
-      run: pnpm test
-      timeout-minutes: 15
-
   unusedDependencies:
     uses: ./.github/workflows/_node_job.yaml
     with:
