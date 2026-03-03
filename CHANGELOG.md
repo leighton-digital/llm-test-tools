@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/leighton-digital/llm-test-tools/compare/v1.0.0...v1.0.1) (2026-03-03)
+
+
+### Bug Fixes
+
+* upgrade biome ([98e32f5](https://github.com/leighton-digital/llm-test-tools/commit/98e32f58a000fec17bb5e81f678789706b680499))
+
 # 1.0.0 (2026-03-03)
 
 
