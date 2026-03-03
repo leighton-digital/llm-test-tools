@@ -56,6 +56,8 @@
     "@commitlint/cli": "20.4.2",
     "@commitlint/config-conventional": "20.4.2",
     "@jest/globals": "30.2.0",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
     "@types/jest": "30.0.0",
     "@types/node": "25.3.3",
     "commit-and-tag-version": "12.6.1",
