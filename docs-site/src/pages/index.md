@@ -50,7 +50,7 @@ const assertionResponse = await tester.responseAssertions({
 const assertionResponse = await tester.responseAssertions({
   text: 'Your AI generated text to validate',
   prompt: 'Your prompt text with your assertions',
-  modelId: 'anthropic.claude-3-sonnet-20240229', // Optional model override
+  modelId: 'amazon.nova-lite-v1:0', // Optional model override
   temperature: 0.7, // Optional
   maxTokensToSample: 500, // Optional
   topP: 0.9, // Optional
@@ -126,7 +126,7 @@ You can configure the following parameters when using `responseAssertions`:
 interface ResponseAssertionsInput {
   prompt: string; // The assertions to test against
   text: string; // The AI response text to test
-  modelId?: string; // AWS Bedrock model ID (default: 'us.amazon.nova-premier-v1:0')
+  modelId?: string; // AWS Bedrock model ID (default: 'amazon.nova-pro-v1:0')
   maxTokensToSample?: number; // Maximum tokens to generate (default: 500)
   temperature?: number; // Temperature for response generation (default: 0.3)
   topP?: number; // Top-p sampling value (default: 0.7)

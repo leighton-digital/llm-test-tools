@@ -204,11 +204,11 @@ describe('LLM Test Tools', () => {
       });
     }, 30000);
 
-    it('should work with toSatisfyAssertions for a different model (Amazon Nova Pro)', async () => {
+    it('should work with toSatisfyAssertions for a different model (Amazon Nova Lite)', async () => {
       const response = await tester.responseAssertions({
         text: TEST_RESPONSES.perfectResponse.text,
         prompt: TEST_RESPONSES.perfectResponse.assertions,
-        modelId: 'amazon.nova-pro-v1:0', // using Amazon Nova Pro as an override
+        modelId: 'amazon.nova-lite-v1:0', // using Amazon Nova Lite as an override
       });
 
       expect(response).toSatisfyAssertions({

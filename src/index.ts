@@ -55,7 +55,7 @@ export enum Tone {
  * Input parameters for response assertions
  * @property prompt - The assertions to check against the text
  * @property text - The text to analyze
- * @property modelId - Optional model ID to use (defaults to us.amazon.nova-premier-v1:0)
+ * @property modelId - Optional model ID to use (defaults to amazon.nova-pro-v1:0)
  * @property temperature - Optional sampling temperature (defaults to 0.3)
  * @property maxTokensToSample - Optional maximum tokens to generate (defaults to 500)
  * @property topP - Optional top-p sampling parameter (defaults to 0.7)
@@ -65,7 +65,7 @@ export interface ResponseAssertionsInput {
   prompt: string;
   /** The text to analyse */
   text: string;
-  /** Optional model ID to use (defaults to us.amazon.nova-premier-v1:0) */
+  /** Optional model ID to use (defaults to amazon.nova-pro-v1:0) */
   modelId?: string;
   /** Optional sampling temperature (defaults to 0.3) */
   temperature?: number;
@@ -166,7 +166,7 @@ export class ResponseAssertions {
     const {
       text,
       prompt,
-      modelId = 'amazon.nova-lite-v1:0',
+      modelId = 'amazon.nova-pro-v1:0',
       temperature = 0.3,
       maxTokensToSample = 500,
       topP = 0.7,
