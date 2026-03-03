@@ -19,7 +19,7 @@ This will compile the TypeScript files into JavaScript in the `dist` directory.
 
 1. Create a release which will automatically update the change log and update the package version number:
 ```bash
-npm run release
+pnpm run release
 ```
 
 2. This command will:
@@ -32,7 +32,7 @@ npm run release
 
 1. Publish the package:
 ```bash
-npm publish --access public # additional flag for scoped packages
+pnpm publish --access public # additional flag for scoped packages
 ```
 
 ## Troubleshooting
@@ -41,11 +41,11 @@ npm publish --access public # additional flag for scoped packages
 
 1. **Version conflicts**:
    - If you try to publish a version that already exists
-   - Solution: Use `npm run release` to update to a new version
+   - Solution: Use `pnpm run release` to update to a new version
 
 2. **Permission errors**:
    - If you don't have permission to publish
-   - Solution: Verify you're logged in with the correct npm account
+   - Solution: Verify you're logged in with the correct npmjs registry account
 
 3. **Package name conflicts**:
    - If the package name is already taken
@@ -55,21 +55,21 @@ npm publish --access public # additional flag for scoped packages
 
 1. Verify package status:
 ```bash
-npm view @leighton-digital/llm-test-tools
+pnpm view @leighton-digital/llm-test-tools
 ```
 
 2. Check package versions:
 ```bash
-npm view @leighton-digital/llm-test-tools versions
+pnpm view @leighton-digital/llm-test-tools versions
 ```
 
 ## Best Practices
 
 1. Always run tests before publishing:
 ```bash
-npm test
+pnpm test
 ```
 
-2. Consider using `npm pack` to ensure that the npm build only concerns the files expected
+2. Consider using `pnpm pack` to ensure that the npm build only concerns the files expected
 
-3. Consider using `npm publish --dry-run` to test the publish process before actually publishing
+3. Consider using `pnpm publish --dry-run` to test the publish process before actually publishing

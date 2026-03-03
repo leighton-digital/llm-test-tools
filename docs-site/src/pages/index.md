@@ -21,7 +21,7 @@ A TypeScript library for testing AI responses using Amazon Bedrock Converse API 
 ## Installation
 
 ```bash
-pnpm install @leighton-digital/llm-test-tools
+npm install @leighton-digital/llm-test-tools
 ```
 
 ## Usage
@@ -138,12 +138,12 @@ interface ResponseAssertionsInput {
 To run the tests:
 
 ```bash
-pnpm run test
+npm run test
 ```
 or in watch mode
 
 ```bash
-pnpm run test:watch
+npm run test:watch
 ```
 
 You can also run the tests with an AWS profile and AWS account ID as shown below:
