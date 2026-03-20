@@ -52,14 +52,14 @@
     "upgrade:deps": "pnpm update --latest"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.5",
+    "@biomejs/biome": "2.4.6",
     "@commitlint/cli": "20.4.3",
     "@commitlint/config-conventional": "20.4.3",
     "@jest/globals": "30.2.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@types/jest": "30.0.0",
-    "@types/node": "25.3.3",
+    "@types/node": "25.3.5",
     "commit-and-tag-version": "12.6.1",
     "commitizen": "4.3.1",
     "conventional-changelog-conventionalcommits": "9.3.0",
