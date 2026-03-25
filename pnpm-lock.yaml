@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-bedrock-runtime':
-        specifier: 3.1005.0
-        version: 3.1005.0
+        specifier: 3.1006.0
+        version: 3.1006.0
     devDependencies:
       '@biomejs/biome':
         specifier: 2.4.6
@@ -205,8 +205,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-bedrock-runtime@3.1005.0':
-    resolution: {integrity: sha512-IV5vZ6H46ZNsTxsFWkbrJkg+sPe6+3m90k7EejgB/AFCb/YQuseH0+I3B57ew+zoOaXJU71KDPBwsIiMSsikVg==}
+  '@aws-sdk/client-bedrock-runtime@3.1006.0':
+    resolution: {integrity: sha512-xoReIImKWGEgI5+44ZqADIfjSQTx367d3wkH1kX8ZZNe70mUQxXDzLp1iWBk4FLjQyTnv0J0vMIvhSHVfvFxXA==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.973.24':
@@ -281,8 +281,8 @@ packages:
     resolution: {integrity: sha512-eQ+dFU05ZRC/lC2XpYlYSPlXtX3VT8sn5toxN2Fv7EXlMoA2p9V7vUBKqHunfD4TRLpxUq8Y8Ol/nCqiv327Ng==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/token-providers@3.1005.0':
-    resolution: {integrity: sha512-vMxd+ivKqSxU9bHx5vmAlFKDAkjGotFU56IOkDa5DaTu1WWwbcse0yFHEm9I537oVvodaiwMl3VBwgHfzQ2rvw==}
+  '@aws-sdk/token-providers@3.1006.0':
+    resolution: {integrity: sha512-eCBaQI1w5PcliOdh8Y0YONOim2zNSTEK4E7gXYC4vIqiT/lzVODIFxmpc8oOBLPSANzcr9daIPPtjQ2C75dLFg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/token-providers@3.1015.0':
@@ -8159,7 +8159,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-bedrock-runtime@3.1005.0':
+  '@aws-sdk/client-bedrock-runtime@3.1006.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -8173,7 +8173,7 @@ snapshots:
       '@aws-sdk/middleware-user-agent': 3.972.25
       '@aws-sdk/middleware-websocket': 3.972.13
       '@aws-sdk/region-config-resolver': 3.972.9
-      '@aws-sdk/token-providers': 3.1005.0
+      '@aws-sdk/token-providers': 3.1006.0
       '@aws-sdk/types': 3.973.6
       '@aws-sdk/util-endpoints': 3.996.5
       '@aws-sdk/util-user-agent-browser': 3.972.8
@@ -8443,7 +8443,7 @@ snapshots:
       '@smithy/types': 4.13.1
       tslib: 2.8.1
 
-  '@aws-sdk/token-providers@3.1005.0':
+  '@aws-sdk/token-providers@3.1006.0':
     dependencies:
       '@aws-sdk/core': 3.973.24
       '@aws-sdk/nested-clients': 3.996.14
